@@ -3,4 +3,5 @@ def turn_count(board)
   board.each do |value|
     if value != "" || value != " "
       count += 1
+    end
 end
