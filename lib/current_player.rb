@@ -1,4 +1,4 @@
-def turn_count(board)
+def turn_count (board)
   count = 0
   board.each do |value|
     if value != "" || value != " "
@@ -6,7 +6,7 @@ def turn_count(board)
     end
 end
 
-def current_player(board)
+def current_player (board)
   if turn_count(board) % 2 
     "O"
   else
